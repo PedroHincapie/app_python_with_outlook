@@ -22,23 +22,19 @@ Estas son mis primeras APP automatizadoras, egnerare un conjunto de proyectos en
 
 Por medio de la presente, deseo poner a disponision toda la informacion que recopile del presente.
 
-##### Lista de proyectos
- - browser_autamation_and_web_scraping:
-    - scrape_simple_text_with_seleniun
-
-##### browser_autamation_and_web_scraping
+##### Proyecto de integracion con outlook
 Permitira la creacion de ....
 
 ### Instalacion
 ##### Luego de la clonacion del proyecto
 
 ```
-git clone pryecto
+git clone proyecto
 ```
 
 ##### Identifica el proyecto que deseas acceder
 ```
-cd proyecto_que_deseo
+cd python_outlook
 ```
 
 ##### Genero el entorno virtaul para este
