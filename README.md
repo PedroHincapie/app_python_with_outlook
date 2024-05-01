@@ -1,4 +1,4 @@
-<h3 align="center">Python Bot</h3>
+<h3 align="center">Python With Selenium</h3>
 
 ---
 
@@ -16,14 +16,10 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Estas son mis primeras APP automatizadoras, egnerare un conjunto de proyectos en el presente con el deseo que tenga un set de bot que me ayude en el día a día
+Por medio del presente, busco realiar mis primeros pasos con Selemiun y Python
 
-## 🏁 Getting Started <a name = "getting_started"></a>
-
-Por medio de la presente, deseo poner a disponision toda la informacion que recopile del presente.
-
-##### Proyecto de integracion con outlook
-Permitira la creacion de ....
+##### Proyecto de integracion con Selenium
+Mi primer Hello word
 
 ### Instalacion
 ##### Luego de la clonacion del proyecto
@@ -34,7 +30,7 @@ git clone proyecto
 
 ##### Identifica el proyecto que deseas acceder
 ```
-cd python_outlook
+cd python_with_selenium_01
 ```
 
 ##### Genero el entorno virtaul para este
@@ -59,8 +55,8 @@ which python3
 
 ##### Estas son las librearias que se usan
 ```
-pip install selenium
-pip install webdriver_manager
+pip3 install selenium
+pip3 install pyunitreport
 ```
 
 ##### Guardar instalado en mi archivo de versiones
