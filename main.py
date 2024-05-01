@@ -6,12 +6,12 @@ from selenium.webdriver.chrome.options import Options
 
 class HelloWorld(unittest.TestCase):
     @classmethod
-    def setUpClass(cls):
+    def setUpClass(self):
         chrome_options = Options()
         chrome_options.binary_location = '/usr/bin/google-chrome'
 
-        cls.driver = webdriver.Chrome(options=chrome_options)
-        driver = cls.driver
+        self.driver = webdriver.Chrome(options=chrome_options)
+        driver = self.driver
         driver.implicitly_wait(10)
 
     def test_hello_world(self):
@@ -22,8 +22,8 @@ class HelloWorld(unittest.TestCase):
         self.driver.get("https://www.wikipedia.org")
 
     @classmethod
-    def tearDownClass(cls):
-        cls.driver.quit()
+    def tearDownClass(self):
+        self.driver.quit()
 
 
 if __name__ == "__main__":
